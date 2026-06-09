@@ -1,0 +1,42 @@
+KEY,RU,EN,DE,FR
+btn_play,Играть,Play,Spielen,Jouer
+btn_settings,Настройки,Settings,Einstellungen,Paramètres
+btn_quit,Выход,Quit,Beenden,Quitter
+btn_back,Назад,Back,Zurück,Retour
+btn_apply,Применить,Apply,Anwenden,Appliquer
+settings_graphics,Графика,Graphics,Grafik,Graphismes
+settings_gameplay,Геймплей,Gameplay,Gameplay,Gameplay
+settings_audio,Звук,Audio,Audio,Audio
+settings_other,Остальное,Other,Sonstiges,Autre
+settings_quality,Качество графики,Graphics Quality,Grafikqualität,Qualité graphique
+settings_quality_low,Низкое,Low,Niedrig,Bas
+settings_quality_med,Среднее,Medium,Mittel,Moyen
+settings_quality_high,Высокое,High,Hoch,Élevé
+settings_quality_ultra,Ультра,Ultra,Ultra,Ultra
+settings_resolution,Разрешение,Resolution,Auflösung,Résolution
+settings_fullscreen,Режим экрана,Screen Mode,Bildschirmmodus,Mode écran
+settings_fullscreen_win,Оконный,Windowed,Fenster,Fenêtré
+settings_fullscreen_borderless,Без рамки,Borderless,Randlos,Sans bordure
+settings_fullscreen_full,Полный экран,Fullscreen,Vollbild,Plein écran
+settings_vsync,Вертикальная синх.,V-Sync,V-Sync,V-Sync
+settings_vsync_off,Выкл,Off,Aus,Désactivé
+settings_vsync_on,Вкл,On,Ein,Activé
+settings_sensitivity,Чувствительность,Sensitivity,Empfindlichkeit,Sensibilité
+settings_inverty,Инверсия Y,Invert Y,Y umkehren,Inverser Y
+settings_volume_master,Громкость,Master Volume,Lautstärke,Volume principal
+settings_volume_music,Музыка,Music,Musik,Musique
+settings_volume_sfx,Звуки,Sound Effects,Soundeffekte,Effets sonores
+settings_language,Язык,Language,Sprache,Langue
+interact_sit_turret,Сесть в башню,Enter Turret,Turm betreten,Entrer dans la tourelle
+interact_exit_turret,Выйти из башни,Exit Turret,Turm verlassen,Quitter la tourelle
+interact_install_dz,Установить ДЗ,Install ERA,ERA installieren,Installer blindage réactif
+interact_move_launcher,Переместить гранатомёт,Move Launcher,Werfer versetzen,Déplacer le lanceur
+interact_inspect,Осмотреть,Inspect,Untersuchen,Inspecter
+interact_use,Использовать,Use,Benutzen,Utiliser
+hud_reload,Перезарядка...,Reloading...,Nachladen...,Rechargement...
+hud_fire,Огонь [Пробел],Fire [Space],Feuer [Leertaste],Feu [Espace]
+hud_exit_turret,Выход [ESC],Exit [ESC],Verlassen [ESC],Sortir [ESC]
+loading_text,Загрузка...,Loading...,Laden...,Chargement...
+credits_design,Дизайн и арт,Design & Art,Design & Kunst,Design & Art
+credits_models,3D модели,3D Models,3D Modelle,Modèles 3D
+credits_code,Программирование,Programming,Programmierung,Programmation
