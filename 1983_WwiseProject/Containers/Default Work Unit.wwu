@@ -1,6 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Default Work Unit" ID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{82B1A335-CB1B-417A-BAFD-45E5EB587860}" ShortID="484752524">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="Ui_click" ID="{D075AB9F-D8BD-40E3-A818-C7DC417C89A9}" ShortID="496509886">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82F41402-F403-4CCE-B44E-42AB75982439}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C18246D3-5838-4B40-99E6-F4A30141214E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui_click" ID="{2F0CA245-A34D-48A1-9D05-A86924EC877D}">
+									<Language>SFX</Language>
+									<AudioFile>Ui_click.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="518535908"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui_click" ID="{2F0CA245-A34D-48A1-9D05-A86924EC877D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ui_Tab_Swtich 1" ID="{285E181B-EA35-4C38-840E-C2EB4AB85BF5}" ShortID="703962070">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82F41402-F403-4CCE-B44E-42AB75982439}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C18246D3-5838-4B40-99E6-F4A30141214E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui_Tab_Swtich 1" ID="{48C01CDF-2EA8-4195-8580-32D0E84B5484}">
+									<Language>SFX</Language>
+									<AudioFile>Ui_Tab_Swtich 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="124761598"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui_Tab_Swtich 1" ID="{48C01CDF-2EA8-4195-8580-32D0E84B5484}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ui_click_02" ID="{DAB3EC53-B286-43D7-BDF2-2DFD601DDD39}" ShortID="629945846">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82F41402-F403-4CCE-B44E-42AB75982439}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C18246D3-5838-4B40-99E6-F4A30141214E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui_click_02" ID="{7EAED612-6BE9-4DA4-8051-ED90ECC76889}">
+									<Language>SFX</Language>
+									<AudioFile>Ui_click_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="983924631"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui_click_02" ID="{7EAED612-6BE9-4DA4-8051-ED90ECC76889}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>

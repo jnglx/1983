@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8411C44B-D705-461D-9B21-E7E8D1A49FEE}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{8411C44B-D705-461D-9B21-E7E8D1A49FEE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8411C44B-D705-461D-9B21-E7E8D1A49FEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_UI_click" ID="{5CFAA8B2-E711-4F4F-910F-4E7C4E931EFB}">
+					<ChildrenList>
+						<Action Name="" ID="{BFB77A63-3F33-4E5B-8700-E10A78AE5673}" ShortID="2329739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ui_click" ID="{D075AB9F-D8BD-40E3-A818-C7DC417C89A9}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ui_Tab_Swtich_1" ID="{0A06E405-9E4B-49F9-A812-84528EE075C3}">
+					<ChildrenList>
+						<Action Name="" ID="{59F21F34-FAA6-4FA1-AEC2-B8544D5150F1}" ShortID="535751855">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ui_Tab_Swtich 1" ID="{285E181B-EA35-4C38-840E-C2EB4AB85BF5}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ui_click_02" ID="{1571500B-2185-423D-8B4B-42B084660B37}">
+					<ChildrenList>
+						<Action Name="" ID="{00E86584-C113-4912-AAA2-8FC3F50C0E5F}" ShortID="202515274">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ui_click_02" ID="{DAB3EC53-B286-43D7-BDF2-2DFD601DDD39}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,91 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3657742645",
+    "Type": "User",
+    "GUID": "{B65C8EA1-36B6-425C-8F43-23B974CDD636}",
+    "Language": "SFX",
+    "Hash": "{F1DF5F7D-62C1-F23B-3B11-7C99CE931FF7}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\General_Soundbank",
+    "ShortName": "General_Soundbank",
+    "Path": "General_Soundbank.bnk",
+    "Media": [
+     {
+      "Id": "124761598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Tab_Swtich 1.wav",
+      "CachePath": "B7/{B7AF6221-E0CA-26D8-1E6E-3A403832497A}.wem"
+     },
+     {
+      "Id": "518535908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_click.wav",
+      "CachePath": "FB/{FBB10610-11E3-EDDF-D5AE-CD447EA73DFC}.wem"
+     },
+     {
+      "Id": "983924631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_click_02.wav",
+      "CachePath": "F5/{F51D48A6-F4C7-7160-090E-351B311C93B1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1749424733",
+      "Name": "Play_UI_click",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_click",
+      "GUID": "{5CFAA8B2-E711-4F4F-910F-4E7C4E931EFB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3209751",
+      "DurationMax": "1.3209751",
+      "MediaRefs": [
+       {
+        "Id": "518535908"
+       }
+      ]
+     },
+     {
+      "Id": "3155308026",
+      "Name": "Play_Ui_click_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ui_click_02",
+      "GUID": "{1571500B-2185-423D-8B4B-42B084660B37}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.10414966",
+      "DurationMax": "0.10414966",
+      "MediaRefs": [
+       {
+        "Id": "983924631"
+       }
+      ]
+     },
+     {
+      "Id": "2454209721",
+      "Name": "Play_Ui_Tab_Swtich_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ui_Tab_Swtich_1",
+      "GUID": "{0A06E405-9E4B-49F9-A812-84528EE075C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7468254",
+      "DurationMax": "0.7468254",
+      "MediaRefs": [
+       {
+        "Id": "124761598"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{089EC247-1179-BF6F-3859-E2F22D356C0D}"
+ }
+}

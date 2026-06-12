@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1749424733	Play_UI_click			\Default Work Unit\Play_UI_click	
+	2454209721	Play_Ui_Tab_Swtich_1			\Default Work Unit\Play_Ui_Tab_Swtich_1	
+	3155308026	Play_Ui_click_02			\Default Work Unit\Play_Ui_click_02	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124761598	Ui_Tab_Swtich 1	.cache\B7\{B7AF6221-E0CA-26D8-1E6E-3A403832497A}.wem		\Containers\Default Work Unit\UI\Ui_Tab_Swtich 1		65966
+	518535908	Ui_click	.cache\FB\{FBB10610-11E3-EDDF-D5AE-CD447EA73DFC}.wem		\Containers\Default Work Unit\UI\Ui_click		116606
+	983924631	Ui_click_02	.cache\F5\{F51D48A6-F4C7-7160-090E-351B311C93B1}.wem		\Containers\Default Work Unit\UI\Ui_click_02		9282
+
