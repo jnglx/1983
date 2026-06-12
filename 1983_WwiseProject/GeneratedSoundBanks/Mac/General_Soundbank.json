@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B65C8EA1-36B6-425C-8F43-23B974CDD636}",
     "Language": "SFX",
-    "Hash": "{F1DF5F7D-62C1-F23B-3B11-7C99CE931FF7}",
+    "Hash": "{171C126E-5E76-8EB0-6D4A-5F332DCDC9EB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\General_Soundbank",
     "ShortName": "General_Soundbank",
     "Path": "General_Soundbank.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Ui_click.wav",
       "CachePath": "FB/{FBB10610-11E3-EDDF-D5AE-CD447EA73DFC}.wem"
+     },
+     {
+      "Id": "972568336",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Tab_Switch 2.wav",
+      "CachePath": "6B/{6BF24917-854B-79D7-D0B8-C61DF1E806E2}.wem"
      },
      {
       "Id": "983924631",
@@ -70,6 +78,20 @@
       ]
      },
      {
+      "Id": "624458068",
+      "Name": "Play_Ui_Tab_Switch_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ui_Tab_Switch_2",
+      "GUID": "{52A22685-25CC-4566-9D92-625E187F5F5C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45106575",
+      "DurationMax": "0.45106575",
+      "MediaRefs": [
+       {
+        "Id": "972568336"
+       }
+      ]
+     },
+     {
       "Id": "2454209721",
       "Name": "Play_Ui_Tab_Swtich_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Ui_Tab_Swtich_1",
@@ -86,6 +108,6 @@
     ]
    }
   ],
-  "FileHash": "{D7C56E89-C0C9-2A64-BB11-0771AD49F539}"
+  "FileHash": "{6F12E166-623B-7889-F369-C89DE0398EFA}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CDE9AC3D-2B42-1217-02C1-D64576EB9AF6}",
+    "Hash": "{9A4D1BC7-92ED-40A5-4BFD-EBD3CF06E608}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,14 +36,46 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\SFX",
+      "GUID": "{62CE7E4E-18E2-4DFA-A6D3-2EDD199FE08C}"
+     },
+     {
       "Id": "2246998526",
       "Name": "Main Audio Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Music",
+      "GUID": "{C2B92D7F-0B56-4973-A361-7C92B953B5C8}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2736159802",
+      "Name": "Ui_MainSound",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_MainSound",
+      "GUID": "{0E65F83F-473A-48C8-AF7E-ECD5E68DD1F4}"
+     },
+     {
+      "Id": "2983937948",
+      "Name": "Ui_MusicSound",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_MusicSound",
+      "GUID": "{49966614-05E2-4621-B8B8-FD8E0B241FCA}"
+     },
+     {
+      "Id": "3425170632",
+      "Name": "Ui_SFXSound",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_SFXSound",
+      "GUID": "{1E95D7A2-A28B-45AB-B966-FF057C4365D9}"
      }
     ]
    }
   ],
-  "FileHash": "{D0C4DC2C-0F0F-8DC9-B07E-1A60BBFFB549}"
+  "FileHash": "{C4EB591E-EDDA-CA66-198F-8C163F6C2683}"
  }
 }
