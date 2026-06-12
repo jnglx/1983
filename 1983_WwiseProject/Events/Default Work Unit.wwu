@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ui_Tab_Switch_2" ID="{52A22685-25CC-4566-9D92-625E187F5F5C}">
+					<ChildrenList>
+						<Action Name="" ID="{A9BAB3EE-165B-4B7D-8458-177EEEECCF36}" ShortID="785610181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ui_Tab_Switch 2" ID="{943ED01E-9DDD-4297-8CBD-969C6878E008}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{25A3C6E2-1F9F-0130-D278-637217692ACF}",
+    "Hash": "{F4E26D17-1053-A382-C577-F9F490734971}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -56,26 +56,26 @@
     ],
     "GameParameters": [
      {
-      "Id": "2736159802",
-      "Name": "Ui_MainSound",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_MainSound",
-      "GUID": "{0E65F83F-473A-48C8-AF7E-ECD5E68DD1F4}"
-     },
-     {
-      "Id": "2983937948",
-      "Name": "Ui_MusicSound",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_MusicSound",
+      "Id": "1004648580",
+      "Name": "Vol_Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Vol_Music",
       "GUID": "{49966614-05E2-4621-B8B8-FD8E0B241FCA}"
      },
      {
-      "Id": "3425170632",
-      "Name": "Ui_SFXSound",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_SFXSound",
+      "Id": "3273357900",
+      "Name": "Vol_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Vol_SFX",
       "GUID": "{1E95D7A2-A28B-45AB-B966-FF057C4365D9}"
+     },
+     {
+      "Id": "3391499625",
+      "Name": "Vol_Master",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Vol_Master",
+      "GUID": "{0E65F83F-473A-48C8-AF7E-ECD5E68DD1F4}"
      }
     ]
    }
   ],
-  "FileHash": "{E0FB45FB-8428-0BC6-5F33-6A216D8502D5}"
+  "FileHash": "{A08900C7-0EF7-5024-0FC3-0D22239D7CAF}"
  }
 }

@@ -187,18 +187,24 @@ public class SettingsManager : MonoBehaviour
 
     public void OnMasterVolumeChanged(float v)
     {
-        AudioListener.volume = v;
+        // Передаємо чисте значення v (від 0 до 1) напряму у Wwise
+        AkSoundEngine.SetRTPCValue("Vol_Master", v);
+        
+        // Оновлюємо текст на екрані (тут множимо на 100 лише для того, щоб показати "50%", а не "0.5%")
         if (masterVolumeText) masterVolumeText.text = Mathf.RoundToInt(v * 100) + "%";
     }
 
     public void OnMusicVolumeChanged(float v)
     {
-        // Управляй AudioMixer если есть, иначе просто сохраняем
+        AkSoundEngine.SetRTPCValue("Vol_Music", v);
+        
         if (musicVolumeText) musicVolumeText.text = Mathf.RoundToInt(v * 100) + "%";
     }
 
     public void OnSFXVolumeChanged(float v)
     {
+        AkSoundEngine.SetRTPCValue("Vol_SFX", v);
+        
         if (sfxVolumeText) sfxVolumeText.text = Mathf.RoundToInt(v * 100) + "%";
     }
 
