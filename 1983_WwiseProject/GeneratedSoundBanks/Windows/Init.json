@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{609BA644-BAEF-80C6-35BB-B8D1B5424530}",
+    "Hash": "{CDCCB741-FC9B-C27E-82FB-8EA31115AB65}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -72,10 +72,16 @@
       "Name": "Vol_Master",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Vol_Master",
       "GUID": "{0E65F83F-473A-48C8-AF7E-ECD5E68DD1F4}"
+     },
+     {
+      "Id": "3757106482",
+      "Name": "Ui_Toombler",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_Toombler",
+      "GUID": "{BB4029D0-29A3-4544-B24D-B8153BDBD68E}"
      }
     ]
    }
   ],
-  "FileHash": "{4F75A58B-4E6D-E9F2-2BB6-C454C51FB617}"
+  "FileHash": "{B0B65769-90F7-FCAF-EB4E-43670290DCF4}"
  }
 }

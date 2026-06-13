@@ -15,12 +15,14 @@ namespace AK
     {
         static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
         static const AkUniqueID PLAY_UI_CLICK_02 = 3155308026U;
+        static const AkUniqueID PLAY_UI_CLICK_TOOMBLER = 2596251736U;
         static const AkUniqueID PLAY_UI_TAB_SWITCH_2 = 624458068U;
         static const AkUniqueID PLAY_UI_TAB_SWTICH_1 = 2454209721U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID UI_TOOMBLER = 3757106482U;
         static const AkUniqueID VOL_MASTER = 3391499625U;
         static const AkUniqueID VOL_MUSIC = 1004648580U;
         static const AkUniqueID VOL_SFX = 3273357900U;

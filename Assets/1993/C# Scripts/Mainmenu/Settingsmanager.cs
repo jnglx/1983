@@ -170,7 +170,9 @@ public class SettingsManager : MonoBehaviour
 
     public void OnSensitivityChanged(float value)
     {
+        
         if (sensitivityValueText) sensitivityValueText.text = value.ToString("F1");
+
     }
 
     public void OnInvertYLeft() { Cycle(ref _invertYIndex, _invertYOptions.Length, -1); UpdateGameplayUI(); }
@@ -188,7 +190,10 @@ public class SettingsManager : MonoBehaviour
     public void OnMasterVolumeChanged(float v)
     {
         // Передаємо чисте значення v (від 0 до 1) напряму у Wwise
-        AkSoundEngine.SetRTPCValue("Vol_Master", v);
+        AkUnitySoundEngine.SetRTPCValue("Vol_Master", v);
+
+        AkUnitySoundEngine.PostEvent("Play_Ui_click_toombler", gameObject);
+        AkUnitySoundEngine.SetRTPCValue("Ui_Toombler", v);
         
         // Оновлюємо текст на екрані (тут множимо на 100 лише для того, щоб показати "50%", а не "0.5%")
         if (masterVolumeText) masterVolumeText.text = Mathf.RoundToInt(v * 100) + "%";
@@ -196,14 +201,20 @@ public class SettingsManager : MonoBehaviour
 
     public void OnMusicVolumeChanged(float v)
     {
-        AkSoundEngine.SetRTPCValue("Vol_Music", v);
+        AkUnitySoundEngine.SetRTPCValue("Vol_Music", v);
+
+        AkUnitySoundEngine.PostEvent("Play_Ui_click_toombler", gameObject);
+        AkUnitySoundEngine.SetRTPCValue("Ui_Toombler", v);
         
         if (musicVolumeText) musicVolumeText.text = Mathf.RoundToInt(v * 100) + "%";
     }
 
     public void OnSFXVolumeChanged(float v)
     {
-        AkSoundEngine.SetRTPCValue("Vol_SFX", v);
+        AkUnitySoundEngine.SetRTPCValue("Vol_SFX", v);
+
+        AkUnitySoundEngine.PostEvent("Play_Ui_click_toombler", gameObject);
+        AkUnitySoundEngine.SetRTPCValue("Ui_Toombler", v);
         
         if (sfxVolumeText) sfxVolumeText.text = Mathf.RoundToInt(v * 100) + "%";
     }

@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{B65C8EA1-36B6-425C-8F43-23B974CDD636}",
     "Language": "SFX",
-    "Hash": "{171C126E-5E76-8EB0-6D4A-5F332DCDC9EB}",
+    "Hash": "{3280E1CA-85EA-D001-2A7A-FF8C7582C3EE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\General_Soundbank",
     "ShortName": "General_Soundbank",
     "Path": "General_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "96271239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_click_toombler.wav",
+      "CachePath": "34/{34584598-93BE-0E98-ED77-44B3CEAF67DD}.wem"
+     },
      {
       "Id": "124761598",
       "Language": "SFX",
@@ -78,6 +86,20 @@
       ]
      },
      {
+      "Id": "2596251736",
+      "Name": "Play_Ui_click_toombler",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ui_click_toombler",
+      "GUID": "{80185FE1-8D5C-468B-B372-22999CDB6FFF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.0075510205",
+      "DurationMax": "0.0075510205",
+      "MediaRefs": [
+       {
+        "Id": "96271239"
+       }
+      ]
+     },
+     {
       "Id": "624458068",
       "Name": "Play_Ui_Tab_Switch_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Ui_Tab_Switch_2",
@@ -105,9 +127,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3757106482",
+      "Name": "Ui_Toombler",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_Toombler",
+      "GUID": "{BB4029D0-29A3-4544-B24D-B8153BDBD68E}"
+     }
     ]
    }
   ],
-  "FileHash": "{09300C8E-AAE3-C3D4-40E2-72EAF3B58DC3}"
+  "FileHash": "{0E47BB42-D367-37FF-162C-9C5D726D9FAC}"
  }
 }
