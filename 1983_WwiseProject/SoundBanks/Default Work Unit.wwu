@@ -10,7 +10,9 @@
 						<ObjectRef Name="Ui_Tab_Switch 2" ID="{943ED01E-9DDD-4297-8CBD-969C6878E008}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ui_click_02" ID="{DAB3EC53-B286-43D7-BDF2-2DFD601DDD39}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ui_Tab_Switch_2" ID="{52A22685-25CC-4566-9D92-625E187F5F5C}" WorkUnitID="{8411C44B-D705-461D-9B21-E7E8D1A49FEE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ui_click_toombler" ID="{80185FE1-8D5C-468B-B372-22999CDB6FFF}" WorkUnitID="{8411C44B-D705-461D-9B21-E7E8D1A49FEE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ui_Tab_Swtich_1" ID="{0A06E405-9E4B-49F9-A812-84528EE075C3}" WorkUnitID="{8411C44B-D705-461D-9B21-E7E8D1A49FEE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ui_click_toombler" ID="{31835823-D2BD-4A7C-936F-8EB673D66D6E}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ui_Tab_Swtich 1" ID="{285E181B-EA35-4C38-840E-C2EB4AB85BF5}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_click" ID="{5CFAA8B2-E711-4F4F-910F-4E7C4E931EFB}" WorkUnitID="{8411C44B-D705-461D-9B21-E7E8D1A49FEE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

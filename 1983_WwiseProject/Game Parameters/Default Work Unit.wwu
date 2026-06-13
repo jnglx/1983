@@ -21,6 +21,12 @@
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Ui_Toombler" ID="{BB4029D0-29A3-4544-B24D-B8153BDBD68E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

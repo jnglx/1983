@@ -47,6 +47,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ui_click_toombler" ID="{80185FE1-8D5C-468B-B372-22999CDB6FFF}">
+					<PropertyList>
+						<Property Name="CooldownTime" Type="Real32">
+							<ValueList>
+								<Value>0.04</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LimitScope" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{8FAF7D5C-DE52-44BD-8332-1644307F3FF0}" ShortID="839449336">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ui_click_toombler" ID="{31835823-D2BD-4A7C-936F-8EB673D66D6E}" WorkUnitID="{C91D58C7-658F-4B2B-9811-07FA8C53632D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

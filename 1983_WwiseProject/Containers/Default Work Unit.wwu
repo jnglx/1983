@@ -135,6 +135,81 @@
 								<ActiveSource Name="Ui_Tab_Switch 2" ID="{DB45FA43-ADFE-45ED-B6FA-FB8E4A98346A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Ui_click_toombler" ID="{31835823-D2BD-4A7C-936F-8EB673D66D6E}" ShortID="594568807">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{82F41402-F403-4CCE-B44E-42AB75982439}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{62CE7E4E-18E2-4DFA-A6D3-2EDD199FE08C}" WorkUnitID="{C18246D3-5838-4B40-99E6-F4A30141214E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui_click_toombler" ID="{A06E17BE-B6EE-4859-9193-1A5CDCF05A7D}">
+									<Language>SFX</Language>
+									<AudioFile>Ui_click_toombler.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="96271239"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{839F244E-EFE9-45B6-9C20-B8E65A9D2A0E}" ShortID="355834611">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Ui_Toombler" ID="{BB4029D0-29A3-4544-B24D-B8153BDBD68E}" WorkUnitID="{355B41B3-8959-4BB1-A45B-8FF64C55D45C}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{05698E48-D7D3-415A-9743-5E4E0C5BB9A3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.999</XPos>
+																<YPos>100</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1158</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui_click_toombler" ID="{A06E17BE-B6EE-4859-9193-1A5CDCF05A7D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
