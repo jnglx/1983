@@ -170,7 +170,9 @@ public class SettingsManager : MonoBehaviour
 
     public void OnSensitivityChanged(float value)
     {
-        
+
+        AkUnitySoundEngine.PostEvent("Play_Ui_click_toombler", gameObject);
+        AkUnitySoundEngine.SetRTPCValue("Ui_Toombler", value);
         if (sensitivityValueText) sensitivityValueText.text = value.ToString("F1");
 
     }

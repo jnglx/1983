@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{845ECB16-EF93-1752-FE98-C5FDE893A2ED}",
+    "Hash": "{5575CC85-B7CE-0399-A352-045C16B5A7F1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -56,6 +56,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "674734939",
+      "Name": "Ui_Sens",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ui_Sens",
+      "GUID": "{825BB737-099E-443A-BFEB-3B00E3E53168}"
+     },
+     {
       "Id": "1004648580",
       "Name": "Vol_Music",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Vol_Music",
@@ -82,6 +88,6 @@
     ]
    }
   ],
-  "FileHash": "{CAA7EECA-5C6E-A392-3C35-F2709089949B}"
+  "FileHash": "{1C07E584-118C-2FF6-89D0-3786B1F7AD8F}"
  }
 }

@@ -22,6 +22,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID UI_SENS = 674734939U;
         static const AkUniqueID UI_TOOMBLER = 3757106482U;
         static const AkUniqueID VOL_MASTER = 3391499625U;
         static const AkUniqueID VOL_MUSIC = 1004648580U;
